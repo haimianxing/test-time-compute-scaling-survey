@@ -43,7 +43,7 @@ Through large-scale reproduction experiments on 6 benchmarks, 12 models, and 28 
 
 \textbf{Finding 3: Verifiers are Effect Amplifiers, Not Optional Components.} Contrary to recent claims that ``TTS works without verification,'' we find that verifier-less TTS achieves only 60-70\% of potential gains. Process Reward Models (PRMs) provide +8-15\% accuracy improvement, with multi-verifier consensus yielding an additional +3-5\%.
 
-Based on these findings, we propose \textbf{UT-TTS (Unified Theory of Test-Time Scaling)}, a comprehensive framework integrating: (1) a three-tier taxonomy (Parallel, Sequential, Architectural) achieving 100\% MECE coverage; (2) a TRIZ-based innovation methodology identifying 10 novel approaches; and (3) \textbf{TTS-Bench}, the first standardized evaluation benchmark with 6 tasks, 72 model-method combinations, and 864 experimental runs.
+Based on these findings, we propose \textbf{UT-TTS (Unified Theory of Test-Time Scaling)}, a comprehensive framework integrating: (1) a three-tier taxonomy (Parallel, Sequential, Architectural) achieving 100\% MECE coverage; (2) a systematic innovation methodology identifying 10 novel approaches; and (3) \textbf{TTS-Bench}, the first standardized evaluation benchmark with 6 tasks, 72 model-method combinations, and 864 experimental runs.
 
 Our work provides definitive answers to three major controversies: (1) \textit{Can TTS replace pre-training?} \textbf{No}---only for low-to-medium difficulty tasks; (2) \textit{Is more compute always better?} \textbf{No}---overthinking is empirically verified; (3) \textit{What is the optimal TTS strategy?} \textbf{Difficulty-adaptive with verifier integration}---not fixed-budget or verifier-less approaches.
 
@@ -86,7 +86,7 @@ This paper makes six core contributions:
 
 \textbf{3. Three颠覆性 Findings}: We provide definitive empirical evidence on (a) the universality of overthinking with quantified thresholds, (b) the superiority of difficulty-adaptive strategies ($p < 0.001$), and (c) the essential role of verifiers as effect amplifiers.
 
-\textbf{4. Unified Theory (UT-TTS)}: We propose a comprehensive framework integrating: (i) a 100\% MECE three-tier taxonomy; (ii) the Adaptive Efficiency Theorem with theoretical guarantees; (iii) a TRIZ-based innovation methodology identifying 10 novel approaches.
+\textbf{4. Unified Theory (UT-TTS)}: We propose a comprehensive framework integrating: (i) a 100\% MECE three-tier taxonomy; (ii) the Adaptive Efficiency Theorem with theoretical guarantees; (iii) a systematic innovation methodology identifying 10 novel approaches.
 
 \textbf{5. TTS-Bench}: We release the \textbf{first standardized evaluation benchmark} for TTS, with 6 tasks, multi-dimensional metrics (accuracy, compute, latency, robustness), and automated evaluation pipelines.
 
@@ -96,7 +96,7 @@ This paper makes six core contributions:
 
 \begin{itemize}
     \item \textbf{\S2}: Systematic review methodology and 120-paper classification
-    \item \textbf{\S3}: The UT-TTS unified framework (taxonomy + theory + TRIZ innovations)
+    \item \textbf{\S3}: The UT-TTS unified framework (taxonomy + theory + Systematic Innovation innovations)
     \item \textbf{\S4}: Large-scale reproduction experiments (864 runs)
     \item \textbf{\S5}: Meta-analysis of three core findings
     \item \textbf{\S6}: TTS-Bench benchmark and toolkit
@@ -597,7 +597,7 @@ For typical LLMs with $\epsilon \approx 0.1\text{--}0.3$ per token, $T_{\text{cr
 \begin{enumerate}
     \item \textbf{Standardize Evaluation}: Use TTS-Bench for comparable results
     \item \textbf{Report Negative Results}: Overthinking thresholds, failure modes
-    \item \textbf{Explore Novel Directions}: 10 TRIZ proposals (Appendix A) offer fertile ground
+    \item \textbf{Explore Novel Directions}: 10 novel proposals (Appendix A) offer fertile ground
 \end{enumerate}
 
 \subsection{Limitations}
@@ -630,7 +630,7 @@ This paper presented the first systematic review, meta-analysis, and unified the
     \item MECE taxonomy (100\% coverage of 120 papers)
     \item Adaptive Efficiency Theorem (formal proof)
     \item Overthinking Necessity Theorem (information-theoretic proof)
-    \item TRIZ-based innovation (10 novel approaches)
+    \item systematic innovation (10 novel approaches)
 \end{itemize}
 
 \textbf{3. Practical Tools}:
