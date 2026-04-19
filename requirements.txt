@@ -1,0 +1,27 @@
+# TTS-Bench Requirements
+
+# Core dependencies
+torch>=2.0.0
+transformers>=4.35.0
+accelerate>=0.24.0
+datasets>=2.14.0
+
+# Evaluation
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+pandas>=2.0.0
+
+# Utilities
+tqdm>=4.65.0
+requests>=2.31.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Experiment tracking
+wandb>=0.15.0
+tensorboard>=2.14.0
+
+# Optional: For paper compilation
+# texlive-latex-extra  # Ubuntu/Debian
+# mactex               # macOS
