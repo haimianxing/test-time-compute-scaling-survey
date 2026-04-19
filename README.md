@@ -215,9 +215,9 @@ Tier 3: Architecture Layer (Model Improvement)
 
 ---
 
-## 🔬 TRIZ Innovation Framework
+## 🔬 Systematic Innovation Framework
 
-10 Novel Approaches Based on TRIZ Principles:
+10 Novel Approaches Based on Systematic Innovation Principles:
 
 1. **Triple-Partition System** (Segmentation + Dynamicity)
    - Diagnose (6%) → Reason (80%) → Verify (14%)
