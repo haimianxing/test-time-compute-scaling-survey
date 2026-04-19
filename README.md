@@ -17,7 +17,7 @@ This paper presents the first **systematic review and meta-analysis** of **120 p
 
 1. **Systematic Meta-Analysis** of 120 papers with PRISMA-compliant methodology
 2. **Large-Scale Reproduction**: 864 experiments across 6 benchmarks, 12 models, 28 methods
-3. **Three颠覆性 Findings**:
+3. **Three Findings**:
    - ✅ Overthinking is universal with quantifiable thresholds
    - ✅ Difficulty-adaptive methods dominate (30-70% compute reduction, p < 0.001)
    - ✅ Verifiers are essential (+8-15% accuracy, not optional)
